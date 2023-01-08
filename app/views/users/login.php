@@ -1,9 +1,7 @@
 <?php include APPROOT.'/views/inc/header.php'; ?>
-<!-- <div class="blog-content">
-  <div class="container">
-    <div class="row">
+<section id="login" class="" style="padding: 80px;" >
 
-      <div class=" col-md-6">
+      <div class="container">
         <div class="card card-body bg-light mt-5 m-5">
           <form action="<?php echo URLROOT; ?>/users/login" method="post">
             <div class="form-group">
@@ -23,13 +21,12 @@
               <div class="col">
                 <input type="submit" value="connect" class="btn btn-success btn-block">
               </div>
-              <div class="col">
-                <a href="<?php echo URLROOT; ?>/users/register" class="btn btn-light btn-block">No account ? register</a>
-              </div>
             </div>
           </form>
         </div>
       </div>
     </div>
   </div>
-</div> -->
+</div>
+</section>
+<?php include APPROOT.'/views/inc/footer.php'; ?>

@@ -738,7 +738,7 @@ span.feature-review {margin-left: 10px;}
 /*-------------------------------------       
         8.  Blog
 --------------------------------------*/
-.blog {padding:80px 0;}
+.blog,.add-produit {padding:80px 0;}
 
 /*.single-blog*/
 .single-blog{
